@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=PT+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.text-box {
+  max-width: 550px;
+}
+.text-box h1 {
+  font-size: 52px;
+  margin: 0;
+  font-family: 'Exo 2', sans-serif;
+}
+.text-box p {
+  font-family: 'PT Sans', sans-serif;
+  line-height: 150%;
+}
