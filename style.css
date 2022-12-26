@@ -13,37 +13,44 @@ h1 {
   font-size: 80px;
   font-weight: 400;
   font-family: 'Tinos', serif;
+  margin: 0;
 }
 h2 {
   font-size: 54px;
   font-weight: 400;
   font-family: 'Tinos', serif;
+  margin: 0;
 }
 h3 {
   font-size: 52px;
   font-weight: 400;
   font-family: 'Tinos', serif;
+  margin: 0;
 }
 h4 {
   font-size: 50px;
   font-weight: 400;
   font-family: 'Tinos', serif;
+  margin: 0;
 }
 h5 {
   font-size: 48px;
   font-weight: 400;
   font-family: 'Tinos', serif;
+  margin: 0;
 }
 h6 {
   font-size: 46px;
   font-weight: 400;
   font-family: 'Tinos', serif;
+  margin: 0;
 }
 p {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
   font-family: 'Open Sans', sans-serif;
+  margin: 0;
 }
 p.normal {
   font-weight: 400;
