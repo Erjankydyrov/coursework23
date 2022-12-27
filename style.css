@@ -64,3 +64,9 @@ p.thumbnail {
   line-height: 30px;
   font-family: 'Open Sans', sans-serif;
 }
+nav ul {
+  padding: 0;
+}
+nav ul li {
+  list-style-type: none;
+}
