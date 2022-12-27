@@ -6,8 +6,24 @@ body {
   margin: 0;
 }
 .container {
-  max-width: 1100px;
+  max-width: 1300px;
   padding: 0 15px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.items-center {
+  align-items: center;
 }
 h1 {
   font-size: 80px;
@@ -52,6 +68,18 @@ p {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
 }
+p.mini {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  font-family: 'Open Sans', sans-serif;
+}
+p.average {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 19px;
+  font-family: 'Open Sans', sans-serif;
+}
 p.normal {
   font-weight: 400;
   font-size: 20px;
@@ -64,9 +92,51 @@ p.thumbnail {
   line-height: 30px;
   font-family: 'Open Sans', sans-serif;
 }
+nav {
+  font-family: 'Open Sans', sans-serif;
+  padding: 40px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 nav ul {
   padding: 0;
 }
 nav ul li {
   list-style-type: none;
+}
+nav ul li a {
+  padding: 14px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+.cart-link {
+  padding: 5px 15px;
+  border-right: 1px solid #FFFFFF;
+}
+nav .nav-phone {
+  max-width: 200px;
+  color: #FFFFFF;
+  padding-left: 30px;
+}
+.nav-contacts {
+  max-width: 230px;
+  width: 100%;
+}
+.btn {
+  background-color: #FF7400;
+  padding: 14px 18px;
+}
+.last-nav-block {
+  padding-left: 50px;
+}
+
+header {
+  background-image: url(./images/headerbg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
